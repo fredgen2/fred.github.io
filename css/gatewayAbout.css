@@ -1,0 +1,172 @@
+body{
+    
+    background-image: url(../fred/gateway.jpg);
+    margin: 0;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    
+}
+
+nav{
+    text-align: right;
+    padding-top: 70px;
+    padding-right: 100px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 16px 18px;
+    font-size: 17px;
+    color: white;
+    position: relative;
+
+}
+.cont{
+    border: 2px solid #ff974f;
+    padding: 12px 22px;
+
+    
+}
+h1{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700px;
+    font-family: serif;
+    line-height: 1.1;
+    margin: o.67em 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.able{
+    background-color: white;
+    height: 800px;
+    position: relative;
+    top: 30px;
+    display: flex;
+}
+.obi1 {
+    border: 3px solid #ff974f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80px;
+    top: 0px;
+    position: relative;
+
+}
+aside{
+    padding-left: 100px;
+    padding-top: 70px;
+}
+
+.last{
+    background-image: url(../fred/cont.jpg);
+    background-size: cover;
+    height: 870px;
+    background-attachment: scroll;
+    position: relative;
+    bottom: 70px;
+    
+}
+.obi {
+    border: 3px solid #ff974f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80px;
+    position: relative;
+    justify-content: center;
+    bottom: 50px;
+}
+.last-list{
+    background-color: white;
+    width:85%;
+    height:650px;
+    left:100px;
+    top: 100px;
+    display: flex;
+    position: relative;      
+}
+.last-line i {
+    position: relative; 
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #f1f1f1;
+    border-radius: 4px;
+    padding: 10px 14px;
+    left: 450px;
+}
+
+.last-line span{
+    display: flex;
+    
+}
+.fa i:hover{
+    color: orange;
+}
+
+.grand{
+    padding-left:50px;
+    top: 50px;
+    position: relative;
+}
+
+form{
+    text-align: right;
+    right: 60px;
+    top: 160px;
+    position: relative;
+    
+    
+    
+}
+input{
+    height: 40px;
+    width: 500px;
+    border-radius: 4px;
+    border: 2px solid #f1f1f1;
+    
+    
+    
+    
+}
+.in{
+    height: 180px;
+    
+    
+}
+.out{
+    width: 170px;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #ff974f;
+    border: #ff974f;
+    color: white;
+    padding: 23px 15px;
+}
+.out:hover {
+    background-color: #ff8127;
+    color: white;
+}
+::placeholder{
+    text-align: ;
+    font-size: 16px;
+}
+
+.last-line{
+    top: 60px;
+    padding-left: 100px;
+    position: relative;
+    
+}
+[type="message"]::placeholder{
+    position: relative;
+    bottom: 70px;
+}
+

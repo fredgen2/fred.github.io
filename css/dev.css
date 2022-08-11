@@ -1,0 +1,283 @@
+
+
+
+
+body{
+    
+    background-image: url(../fred/gateway.jpg);
+    margin: 0;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    
+}
+
+nav{
+    text-align: right;
+    padding-top: 60px;
+    padding-right: 100px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 16px 18px;
+    font-size: 17px;
+    color: white;
+    position: relative;
+    
+    
+}
+
+.first{
+    display: flex;
+    width: 80%;
+    background-color: white;
+    position: relative;
+    height: 300px;
+    padding-right: 100px;
+    justify-content: space-around;
+    align-items: center;
+    top: 240px;
+    left: 80px;
+    
+}
+.image{
+    display: block;
+    padding: 8px;
+    left: 50px;
+    position: relative;
+}
+
+.second{
+    background-color:white;
+    height: 350px;
+    display: block;
+    
+    
+    
+    
+    
+    
+
+}
+.third{
+    background-color:white;
+    display:flex;
+    height: 600px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+.cont{
+    border: 2px solid #ff974f;
+    padding: 12px 22px;
+
+    
+}
+
+h1{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: 700px;
+    font-family: serif;
+    margin-bottom: 8px;
+    line-height: 1.1;
+    margin: o.67em 0;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2{
+    font-size: 1.250em;
+    color: #ff974f;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    line-height: 1.6;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+    
+}
+.readmore-btn{
+    border: 1px solid rgb(202, 193, 193);
+    font-size: 16px;
+    text-transform: bold;
+    height: 50px;
+    width: 130px;
+    border-radius: 3px;
+    color: black;
+    
+}
+.readmore-btn:hover {
+    border:2px solid #ff8127;
+}
+
+.our{
+    background-color: #ff974f;
+    margin-left: 550px;
+    border:0 none;
+    font-size: 16px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    padding: 16px 30px;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    margin-bottom: 0;
+    
+}
+
+.obi1 {
+    border: 3px solid #ff974f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80px;
+    top: 0px;
+    position: relative;
+
+}
+.obi {
+    border: 3px solid #ff974f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80px;
+    position: relative;
+    justify-content: center;
+    bottom: 50px;
+}
+.readmore {
+    padding-bottom: 40px;
+    position: absolute;
+}
+.our:hover {
+    background-color:#ff8127;
+    color: white;
+}
+.last{
+    background-image: url(../fred/cont.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 870px;
+    position: relative;
+    bottom: 70px;
+    
+}
+.last-list{
+    background-color: white;
+    width:85%;
+    height:650px;
+    left:100px;
+    top: 100px;
+    display: flex;
+    position: relative;      
+}
+.last-line i {
+    position: relative; 
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #f1f1f1;
+    border-radius: 4px;
+    padding: 12px 16px;
+    left: 450px;
+}
+.last-line span{
+    display: flex;
+    
+}
+.fa i:hover{
+    color: orange;
+}
+
+.grand{
+    padding-left:50px;
+    top: 50px;
+    position: relative;
+}
+
+form{
+    text-align: right;
+    right: 60px;
+    top: 160px;
+    position: relative;
+    
+    
+    
+}
+input{
+    height: 40px;
+    width: 500px;
+    border-radius: 4px;
+    border: 2px solid #f1f1f1;
+    
+    
+    
+    
+}
+.in{
+    height: 180px;
+    width: 500px;
+    
+    
+}
+.out{
+    width: 170px;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #ff974f;
+    border: #ff974f;
+    color: white;
+    padding: 23px 15px;
+}
+.out:hover {
+    background-color: #ff8127;
+    color: white;
+
+}
+
+.last-line{
+    top: 60px;
+    padding-left: 100px;
+    position: relative;
+    
+}
+[type="message"]::placeholder{
+    position: relative;
+    bottom: 70px;
+}
+@media screen and (max-width:1000px) {
+    .first{
+        display: block;
+        width: 100%;
+        background-color: white;
+        position: relative;
+        height: auto;
+        padding-right: 100px;
+
+        top: 240px;
+        left: 80px;
+        
+    }   
+    
+}
+
+    
+    
+
